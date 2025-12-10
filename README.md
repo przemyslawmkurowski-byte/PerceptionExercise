@@ -16,4 +16,7 @@ Aerith i Bob stoją naprzeciwko siebie, patrząc w swoim kierunku. Pomiędzy nim
 
 4. Dla pewności: jak wyżej, ale czekam tylko 3 sekundy. Aerith nie powinna zdążyć zapomnieć Boba.
 
-   
+## Wnioski
+
+1. Ukrycie ściany nic nie zmienia, obwiniam to, że ściana nadal koliduje z kanałem visibility. Nie jest to przedmiotem testu, więc zamiast szukać obejścia, po prostu zmieniam metodologię testów z "ukrywam scianę" na "przesuwam ścianę 5 metrów w dół"
+2. Zapominanie działa, ale wymaga ustawienia flagi projektowej Forget Stale Actors. Dlaczego tak? Czy Epic zakłada, że zapominanie powinno być robione ręcznie (na co wskazywałby tutorial percepcji)?
