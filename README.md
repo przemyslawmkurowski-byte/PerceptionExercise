@@ -16,6 +16,10 @@ Aerith i Bob stoją naprzeciwko siebie, patrząc w swoim kierunku. Pomiędzy nim
 
 4. Dla pewności: jak wyżej, ale czekam tylko 3 sekundy. Aerith nie powinna zdążyć zapomnieć Boba.
 
+5. Każę Bobowi uklęknąć. Następnie obniżam ścianę, ale tylko do takiego stopnia, żeby Boba nie było widać z perspektywy Aerith. Aerith nie powinna zaraportować, że zaobserwowała Boba.
+
+6. Jak wyżej, ale ściana jest tak ustawiona, że Boba widać od głowy Aerith (ale nie tułowia). Aeirth powinna zauważyć Boba. 
+
 ## Wnioski
 
 1. Ukrycie ściany nic nie zmienia, obwiniam to, że ściana nadal koliduje z kanałem visibility. Nie jest to przedmiotem testu, więc zamiast szukać obejścia, po prostu zmieniam metodologię testów z "ukrywam scianę" na "przesuwam ścianę 5 metrów w dół"
